@@ -16,6 +16,15 @@ public class PascalTriangle {
 		System.out.println("Enter coordinates");
 		int x=sc.nextInt();
 		int y=sc.nextInt();
+		double po=Math.pow(11,x);
+		int p=(int)po;
+		int v=p;
+		for(i=1;i<=y;i++)
+		{
+			x=v%10;
+			v=v/10;
+		}
+		System.out.println(x);
 		
 	}
 	
