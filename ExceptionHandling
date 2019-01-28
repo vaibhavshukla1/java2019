@@ -1,1 +1,5 @@
-
+Null Pointer Exception
+Can we have nested try
+Can we have try inside catch
+Can we have try inside finally
+If multiple exception are present, how many catch block are executed
